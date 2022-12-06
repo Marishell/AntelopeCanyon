@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="stylesheet" href="https://use.typekit.net/xup4cyf.css" />
+    <style>
+      body {
+        background-color: #f2c8a5;
+      }
+
+      h2,
+      p,
+      .clickHere {
+        font-family: freight-neo-pro, sans-serif;
+        text-align: center;
+      }
+
+      .hikingProj {
+        margin: 20px auto;
+        background-image: linear-gradient(
+          #f2c8a5,
+          #eb994a,
+          #e78b3b,
+          #5783bb,
+          #2765b6,
+          #5783bb,
+          #e78b3b,
+          #f2c8a5
+        );
+        width: 66%;
+        border-radius: 15px;
+      }
+
+      h1 {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.4em;
+        font-style: normal;
+        text-align: center;
+      }
+
+      hr {
+        border-style: solid;
+        border-color: #2765b6;
+        border-width: 1.5px;
+      }
+
+      h2 {
+        font-weight: 300;
+        padding-left: 9px;
+        padding-right: 9px;
+      }
+
+      img {
+        display: inline-block;
+        position: relative;
+        border: solid 12px #fff;
+        background: #fff;
+        box-shadow: 0px 0px 15px 0px #555;
+      }
+
+      .caption {
+        margin-block-start: -1em;
+        margin-block-end: 1em;
+        position: relative;
+        border: solid 15px #fff;
+        padding: 11px 29px 11px 29px;
+        font-family: liebeerika, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 1.5px;
+        background: #fff;
+      }
+
+      .polaroid {
+        margin: 0 auto;
+        margin-bottom: 3em;
+        height: 375px;
+        width: 364px;
+        font-size: 24px;
+      }
+
+      .descript {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+        line-height: 1.5em;
+        background-clip: content-box;
+        background-color: rgb(242, 200, 165, 0.65);
+      }
+
+      .signOff {
+        opacity: 0.9;
+        font-size: 14px;
+        padding-bottom: 20px;
+      }
+      .clickHere {
+        display: block;
+        font-weight: 600;
+        font-size: 13.5px;
+        color: #000000;
+        text-decoration: none;
+        transition: all 200ms ease-in-out;
+      }
+      a:hover {
+        font-weight: bold;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      button {
+        background-color: #f3b075;
+        display: block;
+        border: none;
+        margin: auto;
+        margin-bottom: 40px;
+        padding: 10px;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        border-radius: 30px;
+        box-shadow: 2px 4px 5px #2765b6;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        cursor: pointer;
+        background-color: #f39c51;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hikingProj">
+      <h1>
+        <strong>NEXT ON MY BUCKETLIST:</strong>
+        <span style="color: #2765b6" class="canyon">ANTELOPE CANYON</span>
+      </h1>
+      <h2>
+        "Lockdowns" and "quarantines": 2 words that recently have become a
+        little too common for all of our liking. Alas, this past year has made
+        me miss hiking so,
+        <em>so dearly.</em> 😔
+      </h2>
+
+      <div class="polaroid">
+        <img
+        src=https://img.travelawaits.com/filter:centercrop/quill/0/f/b/2/c/5/0fb2c5ec2d4e9e2ffa75d8c0378d7e9aee9b0493.jpg?w=800&h=800
+        height="340" width="=200"/>
+
+        <p class="caption">Manifesting it now! I'll be there soon ✈</p>
+      </div>
+      <p class="descript">
+        Antelope Canyon is located in Page, Arizona within the U.S. Touristy
+        hikes are usually not my vibe, but it's no surprise why this beautiful
+        place is becoming increasingly popular. Aside from being surrounded by
+        other well known parks such as Grand Canyon National Park and Zion
+        National Park,
+        <strong
+          >Antelope Canyon is made of 2 canyons: Upper and Lower Antelope
+          Canyon</strong
+        >. Schedule your tour carefully and you may be able to exeperience both
+        on the same day! Unfortunately, at this time this beautiful place is
+        closed. The land is owned by the Navajo Nation and they will notifiy the
+        public once it's okay to begin visting again.
+      </p>
+
+      <a
+        class="clickHere"
+        href="https://www.travelawaits.com/2468686/how-to-visit-antelope-canyon/"
+        target="_blank"
+      >
+        <br />
+        More travel tips to Antelope Canyon ✈</a
+      >
+      <hr />
+      <p>Check out what else is on my bucket list!</p>
+
+      <button>Take a look! 👀</button>
+      <span class="signOff">
+        <p>
+          Coded by Marishell Castillo
+          <a
+            class="clickHere"
+            href="https://www.linkedin.com/in/marishellcastillo"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </p>
+      </span>
+      <script>
+        function subscibed() {
+          let name = prompt("What is your name?");
+          let email = prompt("What is your email?");
+
+          if (name + email) {
+            alert("Hi " + name + "! We'll be in touch! 😉");
+          } else {
+            alert(
+              "Sorry, didn't catch that! Try entering your name and email again."
+            );
+          }
+        }
+        let checkOut = document.querySelector("button");
+        checkOut.addEventListener("click", subscibed);
+      </script>
+    </div>
+  </body>
+</html>
