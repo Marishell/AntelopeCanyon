@@ -2,137 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Project</title>
     <link rel="stylesheet" href="https://use.typekit.net/xup4cyf.css" />
-    <style>
-      body {
-        background-color: #f2c8a5;
-      }
-
-      h2,
-      p,
-      .clickHere {
-        font-family: freight-neo-pro, sans-serif;
-        text-align: center;
-      }
-
-      .hikingProj {
-        margin: 20px auto;
-        background-image: linear-gradient(
-          #f2c8a5,
-          #eb994a,
-          #e78b3b,
-          #5783bb,
-          #2765b6,
-          #5783bb,
-          #e78b3b,
-          #f2c8a5
-        );
-        width: 66%;
-        border-radius: 15px;
-      }
-
-      h1 {
-        font-family: brandon-grotesque, sans-serif;
-        font-weight: 400;
-        letter-spacing: 0.4em;
-        font-style: normal;
-        text-align: center;
-      }
-
-      hr {
-        border-style: solid;
-        border-color: #2765b6;
-        border-width: 1.5px;
-      }
-
-      h2 {
-        font-weight: 300;
-        padding-left: 9px;
-        padding-right: 9px;
-      }
-
-      img {
-        display: inline-block;
-        position: relative;
-        border: solid 12px #fff;
-        background: #fff;
-        box-shadow: 0px 0px 15px 0px #555;
-      }
-
-      .caption {
-        margin-block-start: -1em;
-        margin-block-end: 1em;
-        position: relative;
-        border: solid 15px #fff;
-        padding: 11px 29px 11px 29px;
-        font-family: liebeerika, sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        letter-spacing: 1.5px;
-        background: #fff;
-      }
-
-      .polaroid {
-        margin: 0 auto;
-        margin-bottom: 3em;
-        height: 375px;
-        width: 364px;
-        font-size: 24px;
-      }
-
-      .descript {
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: justify;
-        line-height: 1.5em;
-        background-clip: content-box;
-        background-color: rgb(242, 200, 165, 0.65);
-      }
-
-      .signOff {
-        opacity: 0.9;
-        font-size: 14px;
-        padding-bottom: 20px;
-      }
-      .clickHere {
-        display: block;
-        font-weight: 600;
-        font-size: 13.5px;
-        color: #000000;
-        text-decoration: none;
-        transition: all 200ms ease-in-out;
-      }
-      a:hover {
-        font-weight: bold;
-        text-decoration: underline;
-        cursor: pointer;
-      }
-
-      button {
-        background-color: #f3b075;
-        display: block;
-        border: none;
-        margin: auto;
-        margin-bottom: 40px;
-        padding: 10px;
-        font-family: brandon-grotesque, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 15px;
-        letter-spacing: 0.1em;
-        border-radius: 30px;
-        box-shadow: 2px 4px 5px #2765b6;
-        transition: all 200ms ease-in-out;
-      }
-
-      button:hover {
-        cursor: pointer;
-        background-color: #f39c51;
-        font-weight: 700;
-      }
-    </style>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/scripts.js" />
   </head>
   <body>
     <div class="hikingProj">
@@ -178,9 +53,12 @@
         More travel tips to Antelope Canyon ✈</a
       >
       <hr />
-      <p>Check out what else is on my bucket list!</p>
-
-      <button>Take a look! 👀</button>
+      <p>Check out what else I've been up to!</p>
+      <button>
+        <a href="https://delightful-youtiao-fbebf4.netlify.app">
+          Take a look! 👀
+        </a>
+      </button>
       <span class="signOff">
         <p>
           Coded by Marishell Castillo
@@ -193,22 +71,6 @@
           </a>
         </p>
       </span>
-      <script>
-        function subscibed() {
-          let name = prompt("What is your name?");
-          let email = prompt("What is your email?");
-
-          if (name + email) {
-            alert("Hi " + name + "! We'll be in touch! 😉");
-          } else {
-            alert(
-              "Sorry, didn't catch that! Try entering your name and email again."
-            );
-          }
-        }
-        let checkOut = document.querySelector("button");
-        checkOut.addEventListener("click", subscibed);
-      </script>
     </div>
   </body>
 </html>
